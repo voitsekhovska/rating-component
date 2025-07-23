@@ -187,3 +187,25 @@ h1 {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media (max-width: 460px) {
+  .general-box {
+    gap: 15px;
+    padding: 25px;
+  }
+
+  .form label {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .star-image {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+}
