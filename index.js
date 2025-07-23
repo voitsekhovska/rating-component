@@ -2,7 +2,6 @@
 
 const form = document.querySelector(".form");
 const ratingInputs = document.querySelectorAll('.form input[type="radio"]');
-const ratingLabel = document.querySelectorAll(".form label");
 const ratingSection = document.querySelector(".rating-section");
 const thankYouSection = document.querySelector(".thank-you-section");
 const selectedSpan = document.querySelector(".selected-rating span");
